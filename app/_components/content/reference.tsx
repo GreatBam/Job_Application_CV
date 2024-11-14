@@ -17,16 +17,18 @@ export default function Reference() {
       </h2>
       <span>ANTHONY FASANO</span>
       <p className="referent">
-        Kralys SA. Montreux, Suisse. | a.fasano@kralys.ch
+        Kralys SA. Montreux, Suisse. | a.fasano@katarinahealth.com
       </p>
 
       <span>NEVIN CONSTANTIN</span>
       <p className="referent">
-        Kralys SA. Montreux, Suisse. | n.constantin@kralys.ch
+        Kralys SA. Montreux, Suisse. | n.constantin@katarinahealth.com
       </p>
 
       <span>NUNZIO NASILLI</span>
-      <p className="referent">Doyen de la section informatique | EPSIC</p>
+      <p className="referent">
+        Doyen de la section informatique | nunzio.nasilli@eduvaud.ch
+      </p>
     </div>
   );
 }

@@ -8,7 +8,6 @@
  *
  **/
 
-import PersonalPicture from "@/public/perso_aout_2024.jpg";
 import ContactDetail from "./sidebar/contact-detail";
 import Language from "./sidebar/language";
 import Skill from "./sidebar/skills";

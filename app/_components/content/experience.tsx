@@ -38,22 +38,24 @@ export default function Experience() {
       </p>
 
       <span>MARQUEUR ROUTIER</span>
-      <p className="location">Signalisation.ch. Martigny.</p>
+      <p className="location">Signalisation.ch. Martigny. | 2013</p>
 
       <span>VENDEUR EN STATION-SERVICE</span>
-      <p className="location">BP Valant Sàrl. Monthey.</p>
+      <p className="location">BP Valant Sàrl. Monthey. | 2012 - 2013</p>
 
       <span>OPERATEUR DE PRODUCTION</span>
-      <p className="location">Hunstman. Monthey.</p>
+      <p className="location">Hunstman. Monthey. | 2012</p>
 
       <span>CONSTRUCTEUR METALLIQUE</span>
-      <p className="location">Acomet SA. Collombey.</p>
+      <p className="location">Acomet SA. Collombey. | 2010 - 2011</p>
 
       <span>LAMINEUR DE VERRE</span>
-      <p className="location">Acomet SA. Collombey.</p>
+      <p className="location">Acomet SA. Collombey. | 2008 - 2010</p>
 
       <span>REPARATEUR AUTOMOBILE</span>
-      <p className="location">Ecoeur Automobiles SA. Collombey.</p>
+      <p className="location">
+        Ecoeur Automobiles SA. Collombey. | 2004 - 2008
+      </p>
     </div>
   );
 }
