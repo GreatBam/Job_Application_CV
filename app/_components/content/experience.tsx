@@ -1,4 +1,12 @@
-import React from "react";
+/**
+ *
+ * @file: experience.tsx
+ *
+ * @copyright: Jonathan Gabioud
+ *
+ * @version: 1.0
+ *
+ **/
 
 export default function Experience() {
   return (

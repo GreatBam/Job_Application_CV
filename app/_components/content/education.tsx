@@ -1,6 +1,6 @@
 /**
  *
- * @file: Home page
+ * @file: education.tsx
  *
  * @copyright: Jonathan Gabioud
  *

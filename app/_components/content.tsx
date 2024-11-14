@@ -1,6 +1,6 @@
 /**
  *
- * @file: Home page
+ * @file: content.tsx
  *
  * @copyright: Jonathan Gabioud
  *
