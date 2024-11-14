@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar p,
+.sidebar ul {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sidebar-subtitles {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.experience,
+.education,
+.references {
+  margin-top: 25px;
+}
+
+.experience h4,
+.education h4,
+.references h4 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.experience p,
+.education p,
+.references p {
+  font-size: 12px;
+  color: #555;
+  margin: 0;
+}
+
+.experience span,
+.education span,
+.references span {
+  font-size: small;
+}
+
+.location,
+.referent {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 5px;
+}
+
+.content-subtitles {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+
+@media print {
+  @page {
+    size: 21cm 29.7cm; /* A4 size in cm */
+    margin: 1cm;
+  }
+
+  body {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
